@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ordores.dev.miappdefb" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_ide" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+        </activity>
+        <activity
+            android:name=".ConciertoActivity"
+            android:label="@string/title_activity_concierto" >
+        </activity>
+        <activity
+            android:name=".TeatroActivity"
+            android:label="@string/title_activity_teatro" >
+        </activity>
+        <activity
+            android:name=".EntretenimientoActivity"
+            android:label="@string/title_activity_entretenimiento" >
+        </activity>
+        <activity
+            android:name=".DeporteActivity"
+            android:label="@string/title_activity_deporte" >
+        </activity>
+        <activity
+            android:name=".ConferenciaActivity"
+            android:label="@string/title_activity_conferencia" >
+        </activity>
+        <activity
+            android:name=".FavoritoActivity"
+            android:label="@string/title_activity_favorito" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="ordores.dev.miappdefb.MenuActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/layout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="149dp"
+            android:id="@+id/concierto"
+            android:layout_gravity="left|top"
+            android:src="@drawable/concierto" />
+
+        <ImageButton
+            android:layout_width="101dp"
+            android:layout_height="148dp"
+            android:id="@+id/teatro"
+            android:layout_gravity="right|top"
+            android:src="@drawable/teatro" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="146dp"
+            android:id="@+id/deporte"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/deporte" />
+
+        <ImageButton
+            android:layout_width="100dp"
+            android:layout_height="146dp"
+            android:id="@+id/conferencia"
+            android:layout_gravity="left|bottom"
+            android:src="@drawable/conferencia" />
+
+        <ImageButton
+            android:layout_width="98dp"
+            android:layout_height="146dp"
+            android:id="@+id/favoritos"
+            android:layout_gravity="right|bottom"
+            android:src="@drawable/favorito"
+            android:adjustViewBounds="false" />
+
+        <ImageButton
+            android:layout_width="99dp"
+            android:layout_height="145dp"
+            android:id="@+id/entretenimiento"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/entretenimiento" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MiAppDeFB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_ide">378585328998320</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_concierto">ConciertoActivity</string>
+    <string name="title_activity_teatro">TeatroActivity</string>
+    <string name="title_activity_entretenimiento">EntretenimientoActivity</string>
+    <string name="title_activity_deporte">DeporteActivity</string>
+    <string name="title_activity_conferencia">ConferenciaActivity</string>
+    <string name="title_activity_favorito">FavoritoActivity</string>
+</resources>
